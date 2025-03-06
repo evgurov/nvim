@@ -5,13 +5,13 @@ return {
         require('lualine').setup({
             options = {
                 theme = "palenight",
-                icons_enabled = false,
+                icons_enabled = true,
             },
             sections = {
                 lualine_a = {'mode'},
                 lualine_b = {'branch', 'diff', 'diagnostics'},
                 lualine_c = {'filename'},
-                lualine_x = {'fileformat', 'filetype'},
+                lualine_x = {'filetype'},
                 lualine_z = {'location'}
             }
         })
